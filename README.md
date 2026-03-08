@@ -51,17 +51,6 @@ streamlit run app.py
 2. Use the slider to choose how many words to generate
 3. Click **Generate Text** and view the result
 
----
-
-## Dataset
-```python
-from nltk.corpus import gutenberg
-data = gutenberg.raw('shakespeare-hamlet.txt')
-```
-
-Text is lowercased, tokenized, and converted to padded sequences for training.
-
----
 
 ## Model Architecture
 
